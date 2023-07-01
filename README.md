@@ -28,29 +28,31 @@
 	
 + **Requirements:** Go Language, Python 3.+, jq<br/>
 To install Go
-		 sudo apt update && sudo apt install -y golang
+		 ```sudo apt update && sudo apt install -y golang ```
 	Arch: 
-		 sudo pacman -Syu go
+		  ```sudo pacman -Syu go ```
 	Mac: 
-		 brew install go
-	Windows: scoop install go
-		 choco install golang
-		 winget install golang
+		  ```brew install go ```
+		   ```port install go ```
+	Windows: 
+		  ```scoop install go ```
+		  ```choco install golang
+		  ```winget install golang
 To install Python
-		 Debian and Ubuntu: sudo apt install python3
-		 Arch: sudo pacman -S Python3
+		  ```Debian and Ubuntu: sudo apt install python3
+		  ```Arch: sudo pacman -S Python3 ```
 To install jq:
 	Debian and Ubuntu: 
-		 sudo apt update && sudo apt install jq
+		  ```sudo apt update && sudo apt install jq ```
 	Arch: 
-		 sudo pacman -S jq
-	Mac: brew install jq
-		 port install jq
-		 fink install jq
+		  ```sudo pacman -S jq ```
+	Mac: 
+		  ```brew install jq ```
+		  ```port install jq ```
 	Windows: 
-		 winget install jqlang.jq
-		 scoop install jq
-		 chocolatey install jq
+		  ```winget install jqlang.jq ```
+		  ```scoop install jq ```
+		  ```chocolatey install jq ```
     
 + **Installation**
     ```sh
