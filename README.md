@@ -36,10 +36,10 @@ To install Go
 		   ```port install go ```
 	Windows: 
 		  ```scoop install go ```
-		  ```choco install golang
-		  ```winget install golang
+		  ```choco install golang ```
+		  ```winget install golang ```
 To install Python
-		  ```Debian and Ubuntu: sudo apt install python3
+		  ```Debian and Ubuntu: sudo apt install python3 ```
 		  ```Arch: sudo pacman -S Python3 ```
 To install jq:
 	Debian and Ubuntu: 
