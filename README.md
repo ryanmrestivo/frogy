@@ -7,14 +7,6 @@
      .do,o..........docddoxxxxxxxxodo;x,.........:d;od'
      ;odlcl,......,odcdddodddddddddddl:d:.......:dcodl:.
     ;clodocllcccloolldddddddddddddddddoclllccclollddolc:
-   ,:looddddollllodddddddddddddddddddddddollllodddddooc:,
-   ':lloddddddddddddddddxxdddddddodxddddddddddddddddoll:'
-    :cllclodddddddddddddxloddddddllddddddddddddddolcllc:
-     :cloolclodxxxdddddddddddddddddddddddxxxxollclool:,
-       ::cloolllllodxxxxxxxxxxxxxxkkkxxdolllllooolc:;
-         .::clooddoollllllllllllllllllloodddolcc:,
-              ,:cclloodddxxxxxxxxxdddoollcc::.
-                     .,:ccccccccccc:::.
 
 **How it can help a large company (Some use cases):**
 - **Vulnerability management team:** Can use the result to feed into their known and unknown assets database to increase their vulnerability scanning coverage.
