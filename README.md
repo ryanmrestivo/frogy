@@ -20,11 +20,11 @@
 ![logical flow for collection](architecture.png)
 
 **Features**
-    :frog: Perform horizontal subdomain enumeration
-    :frog: Conduct vertical subdomain enumeration
-    :frog: Resolve subdomains to their corresponding IP addresses
-    :frog: Identify live web applications
-    :frog: Gather comprehensive contextual information about web applications, including title, content length, server, IP, CNAME, and more, using httpx.
+    :frog: Perform horizontal subdomain enumeration <br/>
+    :frog: Conduct vertical subdomain enumeration <br/>
+    :frog: Resolve subdomains to their corresponding IP addresses <br/>
+    :frog: Identify live web applications <br/> 
+    :frog: Gather comprehensive contextual information about web applications, including title, content length, server, IP, CNAME, and more, using httpx. <br/>
 	
 + **Requirements:** Go Language, Python 3.+, jq<br/>
 You can check to see if you have these by typing into terminal:
