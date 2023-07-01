@@ -27,7 +27,7 @@
     :frog: Gather comprehensive contextual information about web applications, including title, content length, server, IP, CNAME, and more, using httpx.
 	
 + **Requirements:** Go Language, Python 3.+, jq<br/>
-To install Go:<br/>
+**To install Go:**<br/>
   ```sudo apt update && sudo apt install -y golang```
   <br/>
   Arch:<br/>
@@ -42,11 +42,11 @@ To install Go:<br/>
   ```choco install golang```
   ```winget install golang```
   <br/>
-To install Python:<br/>
+**To install Python:**<br/>
   ```Debian and Ubuntu: sudo apt install python3```
   ```Arch: sudo pacman -S python3```
   <br/>
-To install jq:<br/>
+**To install jq:**<br/>
   Debian and Ubuntu:<br/>
   ```sudo apt update && sudo apt install jq```
   <br/>
