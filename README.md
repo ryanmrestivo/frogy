@@ -27,32 +27,40 @@
     :frog: Gather comprehensive contextual information about web applications, including title, content length, server, IP, CNAME, and more, using httpx.
 	
 + **Requirements:** Go Language, Python 3.+, jq<br/>
-To install Go
-		 ```sudo apt update && sudo apt install -y golang ```
-	Arch: 
-		  ```sudo pacman -Syu go ```
-	Mac: 
-		  ```brew install go ```
-		   ```port install go ```
-	Windows: 
-		  ```scoop install go ```
-		  ```choco install golang ```
-		  ```winget install golang ```
-To install Python
-		  ```Debian and Ubuntu: sudo apt install python3 ```
-		  ```Arch: sudo pacman -S Python3 ```
-To install jq:
-	Debian and Ubuntu: 
-		  ```sudo apt update && sudo apt install jq ```
-	Arch: 
-		  ```sudo pacman -S jq ```
-	Mac: 
-		  ```brew install jq ```
-		  ```port install jq ```
-	Windows: 
-		  ```winget install jqlang.jq ```
-		  ```scoop install jq ```
-		  ```chocolatey install jq ```
+To install Go:<br/>
+  ```sudo apt update && sudo apt install -y golang```
+  <br/>
+  Arch:<br/>
+  ```sudo pacman -Syu go```
+  <br/>
+  Mac:<br/>
+  ```brew install go```
+  ```port install go```
+  <br/>
+  Windows:<br/>
+  ```scoop install go```
+  ```choco install golang```
+  ```winget install golang```
+  <br/>
+To install Python:<br/>
+  ```Debian and Ubuntu: sudo apt install python3```
+  ```Arch: sudo pacman -S python3```
+  <br/>
+To install jq:<br/>
+  Debian and Ubuntu:<br/>
+  ```sudo apt update && sudo apt install jq```
+  <br/>
+  Arch:<br/>
+  ```sudo pacman -S jq```
+  <br/>
+  Mac:<br/>
+  ```brew install jq```
+  ```port install jq```
+  <br/>
+  Windows:<br/>
+  ```winget install jqlang.jq```
+  ```scoop install jq```
+  ```chocolatey install jq```
     
 + **Installation**
     ```sh
