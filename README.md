@@ -78,3 +78,7 @@
 + **Output**
     ```
     Output file will be saved inside the output/company_name/outut.csv folder. Where company_name is any company name which you give as an input to 'Organization Name' at the start of the script.
+	```
+**Credits**
+Chintan Gurjar for the initial implementation.
+https://github.com/iamthefrogy/frogy
