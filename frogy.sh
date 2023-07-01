@@ -23,7 +23,7 @@ echo -e "
 
 ############################################################### Housekeeping tasks ######################################################################
 
-echo -e "\e[94mEnter the organisation name (E.g., Carbon Black): \e[0m"
+echo -e "\e[94mEnter the Organization name/title your project (E.g., Frogy): \e[0m"
 read org
 
 cdir=`echo $org | tr '[:upper:]' '[:lower:]'| tr " " "_"`

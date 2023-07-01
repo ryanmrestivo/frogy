@@ -8,26 +8,49 @@
      ;odlcl,......,odcdddodddddddddddl:d:.......:dcodl:.
     ;clodocllcccloolldddddddddddddddddoclllccclollddolc:
 
-**How it can help a large company (Some use cases):**
-- **Vulnerability management team:** Can use the result to feed into their known and unknown assets database to increase their vulnerability scanning coverage.
-- **Threat intel team:** Can use the result to feed into their intel DB to prioritize proactive monitoring for critical assets.
-- **Asset inventory team:** Can use the result to keep their asset inventory database up-to-date by adding new unknown assets facing Internet and finding contact information for the assets inside your organization.
-- **SOC team:** Can use the result to identify what all assets they are monitoring vs. not monitoring and then increase their coverage slowly.
-- **Patch management team:** Many large organizations are unaware of their legacy, abandoned assets facing the Internet; they can utilize this result to identify what assets need to be taken offline if they are not being used.<br/>
+**Use Cases:**
 
-It has multiple use cases depending your organization's processes and technology landscpae.
+- **Vulnerability Management Team:** Enhance vulnerability scanning coverage by incorporating discovered subdomains into the asset database.
+- **Threat Intel Team:** Prioritize proactive monitoring for critical assets by including subdomain enumeration results in the intelligence database.
+- **Asset Inventory Team:** Keep the asset inventory up-to-date by adding newly discovered subdomains and finding contact information for internal assets.
+- **SOC Team:** Identify monitored assets and expand coverage using subdomain enumeration results.
+- **Patch Management Team:** Identify and manage legacy or abandoned assets by leveraging subdomain enumeration findings.<br/>
 
 # **Logic** <br/>
 ![logical flow for collection](architecture.png)
 
 **Features**
-- :frog: Horizontal subdomain enumeration
-- :frog: Vertical subdomain enumeration
-- :frog: Resolving subdomains to IP
-- :frog: Identifying live web applications
-- :frog: Identifying all the contextual properties of the web application such as title, content lenght, server, IP, cname, etc. (through httpx tool)
-
+    :frog: Perform horizontal subdomain enumeration
+    :frog: Conduct vertical subdomain enumeration
+    :frog: Resolve subdomains to their corresponding IP addresses
+    :frog: Identify live web applications
+    :frog: Gather comprehensive contextual information about web applications, including title, content length, server, IP, CNAME, and more, using httpx.
+	
 + **Requirements:** Go Language, Python 3.+, jq<br/>
+To install Go
+		 sudo apt update && sudo apt install -y golang
+	Arch: 
+		 sudo pacman -Syu go
+	Mac: 
+		 brew install go
+	Windows: scoop install go
+		 choco install golang
+		 winget install golang
+To install Python
+		 Debian and Ubuntu: sudo apt install python3
+		 Arch: sudo pacman -S Python3
+To install jq:
+	Debian and Ubuntu: 
+		 sudo apt update && sudo apt install jq
+	Arch: 
+		 sudo pacman -S jq
+	Mac: brew install jq
+		 port install jq
+		 fink install jq
+	Windows: 
+		 winget install jqlang.jq
+		 scoop install jq
+		 chocolatey install jq
     
 + **Installation**
     ```sh
