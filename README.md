@@ -27,6 +27,11 @@
     :frog: Gather comprehensive contextual information about web applications, including title, content length, server, IP, CNAME, and more, using httpx.
 	
 + **Requirements:** Go Language, Python 3.+, jq<br/>
+You can check to see if you have these by typing into terminal:
+  ``` go version```
+  ```python --version```
+  ```jq --version```
+
 **To install Go:**<br/>
   ```sudo apt update && sudo apt install -y golang```
   <br/>
