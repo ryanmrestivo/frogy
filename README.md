@@ -17,9 +17,8 @@
 
 It has multiple use cases depending your organization's processes and technology landscpae.
 
-## todo
 # **Logic** <br/>
-# <img src="" alt="Frogy" title="Frogy" />
+![logical flow for collection](architecture.png)
 
 **Features**
 - :frog: Horizontal subdomain enumeration
@@ -40,9 +39,8 @@ It has multiple use cases depending your organization's processes and technology
     ./frogy.sh
     ```
 	
-##todo
 + **Demo**
-    <br/><img src="" alt="Frogy" title="Frogy" height=600px />
+![example of scan](demo.png)
 
 + **Output**
     ```
