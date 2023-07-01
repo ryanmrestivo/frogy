@@ -19,7 +19,7 @@
 # **Logic** <br/>
 ![logical flow for collection](architecture.png)
 
-**Features**
+**Features** <br/>
     :frog: Perform horizontal subdomain enumeration <br/>
     :frog: Conduct vertical subdomain enumeration <br/>
     :frog: Resolve subdomains to their corresponding IP addresses <br/>
