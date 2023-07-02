@@ -67,7 +67,7 @@ function tomnomnom(){
         ;;
     esac
 
-    for tool in {anew,waybackurls,unfurl,httprobe}
+    for tool in {anew,waybackurls,unfurl}
     do
         version=$(curl -IkLs -o /dev/null -w %{url_effective}  https://github.com/tomnomnom/$tool/releases/latest|grep -o "[^/]*$"| sed "s/v//g")
         baseurl="https://github.com/tomnomnom/$tool/releases/download/v$version/$tool-linux-$cpu-$version.tgz"        
@@ -110,11 +110,3 @@ tomnomnom
 find_domain
 
 echo "Installation completed successfully!"
-
-## to add
-
-# Httprobe() {
-#     printf "                                \r"
-#     go get -u github.com/tomnomnom/httprobe
-#     printf "[+] Httprobe Installed !.\n"
-# }
