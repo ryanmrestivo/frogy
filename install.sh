@@ -67,7 +67,7 @@ function tomnomnom(){
         ;;
     esac
 
-    for tool in {anew,waybackurls,unfurl}
+    for tool in {anew,waybackurls,unfurl,httprobe}
     do
         version=$(curl -IkLs -o /dev/null -w %{url_effective}  https://github.com/tomnomnom/$tool/releases/latest|grep -o "[^/]*$"| sed "s/v//g")
         baseurl="https://github.com/tomnomnom/$tool/releases/download/v$version/$tool-linux-$cpu-$version.tgz"        
@@ -113,34 +113,8 @@ echo "Installation completed successfully!"
 
 ## to add
 
-# Findomain() {
-#     printf "                                \r"
-#     wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip &>/dev/null
-#     unzip findomain-linux.zip
-#     chmod +x findomain
-#     ./findomain -h &>/dev/null && { sudo mv findomain /usr/local/bin/; printf "[+] Findomain Installed !.\n"; } || printf "[!] Install Findomain manually: https://github.com/Findomain/Findomain/blob/master/docs/INSTALLATION.md\n"
-# }
-
-# Subfinder() {
-#     printf "                                \r"
-#     GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder &>/dev/null
-#     printf "[+] Subfinder Installed !.\n"
-# }
-
-# Assetfinder() {
-#     printf "                                \r"
-#     go get -u github.com/tomnomnom/assetfinder &>/dev/null
-#     printf "[+] Assetfinder Installed !.\n"
-# }
-
 # Httprobe() {
 #     printf "                                \r"
 #     go get -u github.com/tomnomnom/httprobe
 #     printf "[+] Httprobe Installed !.\n"
-# }
-
-# Parallel() {
-#     printf "                                \r"
-#     sudo apt-get install parallel -y
-#     printf "[+] Parallel Installed !.\n"
 # }
